@@ -161,10 +161,10 @@ function loadPage(page, filter = null) {
         </div>
 
     </div>
-
+                        
     <!-- Bottom -->
     <div class="footer-bottom">
-        <p>Created by <span><a href="https://instagram.com/__vinay_96k" target="_blank" >@_vinay_96k </a> </span> | © 2026</p>
+        <p>Created by  <a href="https://instagram.com/__vinay_96k" target="_blank" class="insta-link"><i class="fa-brands fa-instagram"></i> __vinay_96k </a> | © 2026</p>
     </div>
 
 </div>
@@ -315,14 +315,9 @@ function loadPage(page, filter = null) {
                     <p><strong>Name:</strong> Vinay More</p>
                     <p><strong>College:</strong> Yogaswari Mahavidhyalaya</p>
                     <p><strong>Course:</strong> BCA 1st Year</p>
-                    <p>
-<strong>Instagram:</strong> 
-<a href="https://instagram.com/__vinay_96k" target="_blank" class="insta-link">
-    <i class="fa-brands fa-instagram"></i> __vinay_96k
-</a>
-</p>
+                   
                 </div>`
-        content.innerHTML = backButton + aboutHTML + fff;
+        content.innerHTML = backButton + aboutHTML ;
     }
 }
 
@@ -555,8 +550,8 @@ async function handleAuth() {
 function initCarousel() {
 
     const bgImages = [
-        "vinaymore.png",
-        "ran.png",
+        "https://media.sproutsocial.com/uploads/2022/06/profile-picture.jpeg",
+        "https://file.oyephoto.com/uploads/thumbnail/romantic-couple-pic-download-free-dp-116272135910kzxeiuevb.jpg",
         "https://picsum.photos/id/1018/1920/1080",
         "https://picsum.photos/id/1025/1920/1080",
         "https://picsum.photos/id/1035/1920/1080",
@@ -567,8 +562,8 @@ function initCarousel() {
 
 
     const images = [
-        "vinay.jpeg",
-        "https://picsum.photos/id/1016/800/1200",
+        "https://media.sproutsocial.com/uploads/2022/06/profile-picture.jpeg",
+        "https://file.oyephoto.com/uploads/thumbnail/romantic-couple-pic-download-free-dp-116272135910kzxeiuevb.jpg",
         "https://picsum.photos/id/1018/800/1200",
         "https://picsum.photos/id/1025/800/1200",
         "https://picsum.photos/id/1035/800/1200",

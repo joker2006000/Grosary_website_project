@@ -1075,10 +1075,10 @@ img {
   position: absolute;
 
   width: 650px;
-  height: 600px;
+  height: 550px;
 
   left: 860px; /* adjust */
-  top: 99px; /* adjust */
+  top: 90px; /* adjust */
 
   opacity: 1;
   transition: 0.6s ease;
