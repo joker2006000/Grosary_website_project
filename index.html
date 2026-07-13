@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grosary Store</title>
+    <link rel="icon" type="png" href="icon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="topbar">
+        <img src="logo1.png" class="top-tital">
+
+
+
+        <!-- 🔍 Search box (Topbar) -->
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Search products...">
+            <span class="search-icon">🔍</span>
+        </div>
+
+        <div class="top-menu">
+            <button onclick="loadPage('category')"><img src="ICONS/home.png"></button>
+            <button onclick="loadPage('cart')"><img src="ICONS/cart.png"></button>
+            <button onclick="loadPage('orders')"><img src="ICONS/order.png"></button>
+            <button onclick="loadPage('about')"><img src="ICONS/about.png"></button>
+        </div>
+
+
+
+        <!-- Menu Icon -->
+        <div class="menu-icon"> ☰ </div>
+        <!-- Mobile Side Menu -->
+        <div class="side-menu" id="sideMenu">
+            <button onclick="loadPage('category')">Home</button>
+            <button onclick="loadPage('shop')">Shop</button>
+            <button onclick="loadPage('cart')">Cart</button>
+            <button onclick="loadPage('orders')">My Orders</button>
+            <button onclick="loadPage('about')">About</button>
+        </div>
+
+    </div>
+    <div id="suggestionsBox"> </div>
+
+    <div id="content" class="content">
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                setTimeout(function () { loadPage('category'); }, 0); // 500ms delay
+            });
+        </script>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
